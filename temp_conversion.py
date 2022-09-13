@@ -7,7 +7,8 @@ def convert_100_to_celsius():
     f = 100
     celcius_100 = ( f - 32 ) * 5/9
 
-    print(float(celcius_100)) 
+    print(celcius_100) 
+    print("float")
     # I know it is a float because it is origonally 37.77777777777778, when I print int the answer then becomes 37
 convert_100_to_celsius()
 
@@ -58,7 +59,7 @@ def hotter_temp():
     f = 85.1
     celcius = (f - 32) * 5/9
     fahrenheit = (c * 9/5) + 32
-    print('hotter temp: 85.1 degrees fahrenheit')
+    print('30.2 degrees celsius')
     
     # print(fahrenheit > celcius)
     # print(fahrenheit - celcius)
