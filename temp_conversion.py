@@ -68,3 +68,19 @@ def hotter_temp():
     # print(fahrenheit > celcius)
     # print(fahrenheit - celcius)
 hotter_temp()
+
+# Writing a new function that takes in a number and converts it to Celsius
+def convert_to_celcius():
+    to_convert = int(input(f'what number would you like to convert to celcius? '))
+    celcius = (to_convert - 32) * 5/9
+    print(celcius)
+
+convert_to_celcius()
+
+# Writing a new function that takes in a number and converts it to Fahrenhiet
+def convert_to_fahrenheit():
+    to_convert = int(input(f'what number would you like to convert to fahrenheit? '))
+    fahrenheit = (to_convert - 32) * 5/9
+    print(fahrenheit)
+
+convert_to_fahrenheit()
